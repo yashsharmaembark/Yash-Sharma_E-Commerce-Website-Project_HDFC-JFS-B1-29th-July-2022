@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOMMERCE</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="Footer.css">
+    <link rel="stylesheet" href="App.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .rating {
+            font-family: fontAwesome;
+        }
+
+        .overlay {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.9);
+            overflow-x: hidden;
+            transition: 0.5s;
+        }
+
+        .overlay-content {
+            position: relative;
+            /* top: 25%; */
+            top: 10%;
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .overlay a {
+            padding: 8px;
+            text-decoration: none;
+            font-size: 36px;
+            /* color: #818181; */
+            color: white;
+            display: block;
+            transition: 0.3s;
+        }
+
+        /* .overlay a:hover,
+        .overlay a:focus {
+            color: #f1f1f1;
+        } */
+
+        .overlay .closebtn {
+            position: absolute;
+            top: 20px;
+            right: 45px;
+            font-size: 60px;
+        }
+
+        @media screen and (max-height: 450px) {
+            .overlay a {
+                font-size: 20px
+            }
+
+            .overlay .closebtn {
+                font-size: 40px;
+                top: 15px;
+                right: 35px;
+            }
+        }
+
+        .checked {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="banner">
+        <p>Welcome to Ecommerce</p>
+        <h1>FIND AMAZING PRODUCTS BELOW</h1>
+
+        <a href="#container">
+            <button>Scroll</button>
+        </a>
+    </div>
+
+    <h2 class="homeHeading">Featured Products</h2>
+
+    <div class="container" id="container">
+        <div class="productCard">
+            <a href="ProductDetails1.html"><img src="./ecommerce images/ecommerce images/71PxNaNLNnL._SL1373_.jpg" alt="Marvel's Spiderman Miles Morales Ultimate Edition (PS5)" /></a>
+            <a href="ProductDetails1.html"><p>Marvel's Spiderman Miles Morales Ultimate Edition (PS5)</p></a>
+            <div class="rating">
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="far fa-star"></i>
+                <span> (40 Reviews)</span>
+            </div>
+            <span>₹1500</span>
+        </div>
+
+        <div class="productCard">
+            <a href="ProductDetails2.html"><img src="./ecommerce images/ecommerce images/1.jpg" alt="Apple MacBook" /></a>
+            <a href="ProductDetails2.html"><p>Apple MacBook Pro(8GB RAM, 256GB SSD, 33.78cm, Space Grey)</p></a>
+            <div class="rating">
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="far fa-star"></i>
+                <span> (279 Reviews)</span>
+            </div>
+            <span>₹16000</span>
+        </div>
+
+        <div class="productCard">
+            <a href="ProductDetails3.html"><img src="./ecommerce images/ecommerce images/Trigger-Unisex-Shoes.jfif" alt="Trigger Unisex Shoes" /></a>
+            <a href="ProductDetails3.html"><p>Trigger Unisex Shoes Puma Black | Everything Black</p></a>
+            <div class="rating">
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="far fa-star checked"></i>
+                <span> (740 Reviews)</span>
+            </div>
+            <span>₹4499</span>
+        </div>
+
+        <div class="productCard">
+            <a href="ProductDetails4.html"><img src="./ecommerce images/ecommerce images/1phone.jfif" alt="OnePlus 9 Pro" /></a>
+            <a href="ProductDetails4.html"><p>OnePlus 9 Pro 256 GB, 12 GB RAM, Pine Green, Smartphone</p></a>
+            <div class="rating">
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span> (962 Reviews)</span>
+            </div>
+            <span>₹24000</span>
+        </div>
+
+        <div class="productCard">
+            <a href="ProductDetails5.html"><img src="./ecommerce images/ecommerce images/jeans1.jpg" alt="Van Heusen Beige Jeans" /></a>
+            <a href="ProductDetails5.html"><p>Van Heusen Beige Jeans For Male</p></a>
+            <div class="rating">
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span> (1360 Reviews)</span>
+            </div>
+            <span>₹1600</span>
+        </div>
+
+        <div class="productCard">
+            <a href="ProductDetails6.html"><img src="./ecommerce images/ecommerce images/top1.jpg" alt="Van Heusen Yellow T Shirt" /></a>
+            <a href="ProductDetails6.html"><p>Van Heusen Yellow T Shirt Men Polo</p></a>
+            <div class="rating">
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span> (12 Reviews)</span>
+            </div>
+            <span>₹5000</span>
+        </div>
+
+        <div class="productCard">
+            <a href="ProductDetails7.html"><img src="./ecommerce images/ecommerce images/attire 1.webp" alt="Black Printed Ready to Wear Lahenga with Blouse" /></a>
+            <a href="ProductDetails7.html"><p>Black Printed Ready to Wear Lahenga with Blouse | Ye Manly nhi h yaar</p></a>
+            <div class="rating">
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span> (14 Reviews)</span>
+            </div>
+            <span>₹2069</span>
+        </div>
+
+        <div class="productCard">
+            <a href="ProductDetails8.html"><img src="./ecommerce images/ecommerce images/camera 1.jpg" alt="Canon EOS 5D Mark IV DSLR Camera" /></a>
+            <a href="ProductDetails8.html"><p>Canon EOS 5D Mark IV DSLR Camera with 24-105mm f/4L II Lens</p></a>
+            <div class="rating">
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="far fa-star"></i>
+                <span> (143 Reviews)</span>
+            </div>
+            <span>₹266776</span>
+        </div>
+    </div>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="body.html"><img src="Logo.jpg" height="50"></a>
+            <a href="body.html">Home</a>
+            <!-- <a href="#">Product</a> -->
+            <a href="Contact.html">Contact</a>
+            <!-- <a href="#">About</a> -->
+            <!-- <a href="#"><img src="search-icon-png-9993.png" width="50" height="40"></a> -->
+            <!-- <a href="#"><img src="shopping-bag-512.png" width="50" height="50"></a> -->
+            <a href="./Registration Form/index.html"><img src="Profile.png" width="50" height="50"></a>
+        </div>
+    </div>
+
+
+
+
+    <span style="position: fixed;top: 20px;left: 20px;font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+    <footer id="footer">
+        <div class="leftFooter">
+            <h4>DOWNLOAD OUR APP</h4>
+            <p>Download App for Android and IOS mobile phone</p>
+            <img src="playstore.png" alt="playstore" />
+            <img src="Appstore.png" alt="Appstore" />
+        </div>
+
+        <div class="midFooter">
+            <h1>ECOMMERCE.</h1>
+            <p>High Quality is our first priority</p>
+
+            <p>Copyrights 2022 &copy; Yash Sharma</p>
+        </div>
+
+        <div class="rightFooter">
+            <h4>Follow Us</h4>
+            <a href="#">Instagram</a>
+            <a href="#">Youtube</a>
+            <a href="#">Facebook</a>
+        </div>
+    </footer>
+
+
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+</body>
+
+</html>
